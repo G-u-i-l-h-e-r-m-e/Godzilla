@@ -1,0 +1,592 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+.sticky{
+	width: 100vw;
+	background-color: #FFF;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sticky a{
+    color: #154002;
+    text-decoration: none;
+}
+.sticky a:hover{
+    color: #F29F05;
+    border-bottom:3px solid #F29F05;
+}
+
+.orientationLogoTexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orientationLogoTexto img{
+    width: 25%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.textoLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     width: 13vw; 
+     
+}
+.textoLogo h1,h5{
+    margin: 0;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+.textoLogo h1{
+    width: 2rem;
+    font-weight: 900;
+    color: #154002;
+}
+.textoLogo h5{
+    width: 100%;
+    color: #F29F05;
+    margin-left: 45%;
+    font-weight: 900;
+    font-size: 0.85rem;
+}
+
+.sticky nav{
+    width: 50vw;
+}
+.sticky ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.sticky li{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #154002;
+    cursor: pointer;
+}
+.imgCarousel{
+    width: 90%;
+    height: 32em;
+}
+.textoCarousel1
+{
+position: relative;
+margin-top:-35%;
+font-size: 2rem;
+font-weight: 600;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+text-transform: uppercase;
+}
+.textoCarousel1 :nth-child(1){
+    text-shadow:#000000 4px 3px 10px;
+}
+.textoCarousel1 :nth-child(2){
+    text-shadow:#000000 4px 3px 10px;
+    }
+.textoCarousel1 :nth-child(4){
+    font-size: 1.3rem;
+    text-shadow:#000000 4px 3px 10px;
+
+}
+
+
+.btnPasso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 40%;
+    margin-bottom: 12%;
+    width:17vw;
+    height: 17vh;
+    border-radius: 25px;
+    background-color: #F29F05;
+    color: #FFFFFFFF;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.btnPasso a{
+    margin-top: 10px;
+}
+.btnPasso p{
+    width: 14vw;
+}
+.btnPasso :nth-child(2){
+    font-size: 0.8rem;
+}
+.textoCarouselRecicle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 17vw;
+    height: 20vh;
+    margin-bottom: 8%;
+    margin-left: 15%;
+}
+.textoCarouselRecicle h5{
+    font-size: 2rem;
+    color:#FFF;
+    font-weight: 600;
+    text-shadow:#000000 4px 3px 10px;
+}
+.textoCarouselRecicle p{
+    margin-top: 10px;
+    text-shadow:#000000 4px 3px 10px;
+
+}
+.valores{
+    width: 100%;
+    background-image: url("../img/backgroundValores.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+    background-color: #154002;
+}
+.cardValores{
+    width: 25vw;
+}
+.cardValores h2,p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFF;
+}
+.cardValores h2{
+    font-size: 1.2rem;
+}
+.cardValores p{
+    font-size: 14px;
+}
+.carousel-caption{
+    display: flex;
+    justify-content: center;
+}
+.orientationCardDescarte{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-top: -23.6%;
+    padding: 20px 20px 20px 20px;
+}
+.cardDescarte{
+    width: 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #D9D9D9;
+    margin-bottom: 2.9%;
+}
+.textCardDescaste{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F29F05;
+    color: white;
+    border-radius:0px 0px 10px 10px;
+    padding: 10px 0px 10px 0px ;
+    cursor: pointer;
+}
+.textCardDescaste p{
+    margin: 0;
+}
+.textCardDescaste a{
+    color:#FFF;
+    cursor: pointer;
+    position: relative;
+}
+.textoCarousel2{
+    margin-bottom: 30%;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow:#000000 4px 3px 10px;
+}
+.sobreNos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    width: 37%;
+    color: #F29F05;
+    font-weight: 600;
+    font-family: 'Raleway', Arial, sans-serif;
+    margin: 10px;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.divSobreNos{
+    width: 69vw;
+    margin-top: 20px;
+}
+.divSobreNos h3{
+    color: #F29F05;
+}
+.divSobreNos p{
+    color: #000000;
+    text-align: justify;
+}
+.orientationTitulo{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    color: #F29F05;
+    margin: 40px 0px 40px 0px;
+}
+.linha{
+    width: 100%;
+    height: 10px;
+    border-bottom: 2px solid #F29F05;
+}
+.tutorial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.orientationTituloTutorial{
+    width: 80vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.tutorial h3{
+    color: #F29F05;
+    font-weight: 600;
+}
+.orientationCardTutorial{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    
+}
+.textoTutorial{
+    width: 30vw;
+    margin: 10px;
+}
+.textoTutorial p{
+    color: #000000;
+    text-align: justify;
+}
+.pontoDeEntrega{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divIntroPontoEntrega{
+    margin-left: 40px;
+    text-align: center;
+}
+
+.introPontoEntrega{
+text-align: justify;
+margin-bottom: 20px;
+}
+.introPontoEntrega span{
+    color: #F29F05;
+    font-weight: bold;
+}
+
+.passo{
+    width: 15vw;
+    margin: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.passo p{
+    color: #000000;
+    text-align: left;
+
+}
+.passoVideo{
+    width: 34vw;
+    height: 40vh;
+    
+}
+.tituloh3{
+    font-weight: 600;
+    color:#F29F05;
+}
+.parceiros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parceiros p{
+    width: 25vw;
+    color: #000000;
+}
+.logoParceiros{
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faleConosco{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.orientationFaleConosco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.cardSpeak{
+    width: 15vw;
+    height: 30vh;
+    background-color: #FFF;
+    box-shadow: 0px 10px 15px 13px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem ;
+    flex-direction: column;
+}
+.orientationcardFlaeConosco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardSpeak h2{
+    color: #154002;
+}
+
+.imgQrCode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.cardLogo{
+    width: 8vw;
+    margin-bottom: -42px;
+    position: relative;
+}
+
+.textSpeak{
+    width: 66vh;
+    text-align: justify;
+}
+.textSpeak h2{
+    color: #F29F05;
+    font-weight: 600;
+}
+
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rodape p{
+    color: white;
+    font-weight: 300;
+    margin-top: revert;
+}
+.faixaAmarelaRodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: #F29F05;
+}  
+
+.pontoDeEntrega{
+    display: flex;
+    flex-direction: column;
+}
+.pontoColetah3{
+    color: #154002;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.orientationPontoColeta{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     width: 80vw;
+}
+
+/* ponto de entrega */
+
+.textPontoDeEntrega{
+    display:none;
+    width: 37vw;
+    text-align: center;
+
+}
+.ciclo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 611.8px;
+    height: 594px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #FFF   ;
+}
+.faixa1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item1 img{
+    width: 263px;
+    height: 196px;
+    margin-bottom: -75px;
+    margin-left: 140px;
+    transform: rotate(20deg);
+    cursor: pointer;
+}
+
+.item2 img{
+    width: 233px;
+    height: 190px;
+    margin-bottom: -220px;
+    margin-left: -20px;
+    margin-top: 20px;
+    transform: rotate(22deg);
+    cursor: pointer;
+}
+.faixa2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faixa2 p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #F29F05;
+    width: 29vw;
+    margin: 0px 0px -80px -25px;
+
+}
+
+.item3{
+    width: 158px;
+    height: 314px;
+
+}
+.item3 img{
+    width: 148px;
+    height: 304px;
+    margin-top: -25px;
+    margin-left: 3px;
+    transform: rotate(22deg);
+    cursor: pointer;
+}
+.item4{
+width: 159px;
+height: 315px;
+}
+.item4 img{
+width: 149px;
+height: 305px;
+margin-top: 124px;
+margin-left: -14px;
+transform: rotate(22deg);
+cursor: pointer;
+}
+
+.faixa3{
+    display: flex;
+    justify-content: space-around;
+}
+.item5{
+   width: 246px;
+   height: 199px;
+   
+}
+.item5 img{
+    width: 236px;
+   height: 189px;
+   margin-top: -65px;
+   margin-left: -32px;
+    transform: rotate(21deg);
+    cursor: pointer;
+}
+.item6{
+    width: 273px;
+    height: 207px;
+}
+.item6 img{
+    width: 263px;
+    height: 197px;
+    margin-top:14px;
+    margin-left: -100px;
+    transform: rotate(22deg);
+    cursor: pointer;
+}
+
+.card{
+    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    transition: 2s;
+    margin: 20px;
+    background-color: #969595;
+}
+.card p{
+    color: #000000;
+    width: 30vw;
+    text-align: justify ;
+}
+
+.cardf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgcardf{
+    width: 7vh;
+    margin-bottom: 15px;
+}
